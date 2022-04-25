@@ -1,4 +1,4 @@
-.PHONY: test var text
+.PHONY: test var text testir
 
 test:
 	g++ test.cpp -o test && ./test
@@ -8,3 +8,6 @@ var:
 
 text:
 	g++ text.cpp -o text && ./text
+
+testir:
+	g++ testir.cpp -o testir && ./testir
